@@ -29,13 +29,13 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav pt-4">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">home</a>
+            <a class="nav-link active" aria-current="page" href="#">home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#our-story">our s<span class="red-letter">t</span>ory</a>
+            <a class="nav-link active" href="#our-story">our s<span class="red-letter">t</span>ory</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-bs-toggle="dropdown"
+            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" data-bs-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
               menus
             </a>
@@ -45,9 +45,12 @@
               <a class="dropdown-item" href="#">Something else here</a>
             </div>
           </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#contact">con<span class="red-letter btn-red-letter">t</span>act</a>
+          </li>
         </ul>
         <button type="button" class="rounded-pill btn-rounded navbar-btn mt-4">
-          con<span class="red-letter btn-red-letter">t</span>act
+          le<span class="red-letter btn-red-letter">t</span>'s cha<span class="red-letter btn-red-letter">t</span>
           <span class="btn-span"><i class="fas fa-phone-alt"></i></span>
         </button>
       </div>
@@ -82,21 +85,18 @@
                   view menus</span>
                 </button>
               </div>
-
           </div>
         </div>
       </div>
     </div>
 
-<!-- menus modal starts here -->
+    <!-- menus modal starts here -->
 
     <div class="modal fade" id="menusModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
         <div class="modal-content">
-          
           <h5 class="modal-title text-center" id="exampleModalLabel">menus</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          
           <div class="modal-body">
             <img src="/images/monkey.jpg" alt="" class="img-fluid">
             <p>
@@ -110,14 +110,10 @@
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-
           </div>
         </div>
       </div>
     </div>
-
-
-
   </section>
 
   <!-- 
@@ -149,21 +145,53 @@
 
   <!-- 
 =============================
+  CONTACT SECTION STARTS HERE 
+=============================
+-->
+  <section class="contact d-flex justify-content-center" id="contact">
+    <div class="col-12 col-lg-8 shadow p-3">
+      <div class="form w-100 pb-2">
+        <h4 class="display-4">con<span class="red-letter">t</span>act us</h4>
+        <form action="POST" data-netlify="true" class="row">
+          <input type="text" name="firstName" placeholder="Name" id="inputFirstName"
+            class="shadow form-control form-control-lg mb-3">
+          <input type="email" name="email" placeholder="email address" id="inputemail"
+            class="shadow form-control form-control-lg mb-3">
+          <input type="tel" name="tel" placeholder="phone number" id="inputPhone"
+            class="shadow form-control form-control-lg mb-3">
+          <textarea name="message" placeholder="message" id="message" class="shadow form-control form-control-lg mb-3"
+            cols="30" rows="8"></textarea>
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon3">Date</span>
+            <input type="date" name="date" class="form-control" id="date" aria-describedby="basic-addon3">
+          </div>
+          <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+            <option selected>indoor / outdoor</option>
+            <option value="indoor">indoor</option>
+            <option value="outdoor">outdoor</option>
+          </select>
+          <input type="number" name="guestCount" placeholder="guest count" id="guestCount"
+            class="shadow form-control form-control-lg">
+          <div data-netlify-recaptcha="true" class="mt-3 mb-3 justify-content-center"></div>
+          <div class="row justify-content-center">
+            <button type="submit" class="btn rounded-pill btn-rounded body-btn w-50">Submi<span
+                class="red-letter">t</span></button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- 
+=============================
   OUR STORY SECTION STARTS HERE 
 =============================
 -->
 
 
-
-
-<!-- 
-=============================
-  OUR STORY SECTION STARTS HERE 
-=============================
--->
-
-
-<!-- 
+  <!-- 
 ====================================
   SOCIAL MEDIA SECTION STARTS HERE 
 ====================================
