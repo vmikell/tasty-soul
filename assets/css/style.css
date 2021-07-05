@@ -10790,10 +10790,6 @@ textarea.form-control-lg {
   padding: 0.9375rem 1.25rem;
 }
 
-.red-letter {
-  color: #fb0202;
-}
-
 .navbar {
   background: linear-gradient(to left, rgba(251, 2, 2, 0.55), rgba(253, 126, 20, 0.55));
 }
@@ -10865,6 +10861,44 @@ textarea.form-control-lg {
 .social-media i {
   font-size: 2rem;
   color: rgba(251, 2, 2, 0.6);
+}
+
+.footer {
+  background: linear-gradient(to left, rgba(251, 2, 2, 0.55), rgba(253, 126, 20, 0.55));
+}
+.footer li {
+  list-style: none;
+  font-size: 1.45rem;
+}
+.footer li a {
+  color: #000;
+}
+.footer p {
+  text-align: center;
+}
+.footer p a {
+  color: #000;
+  text-decoration: none;
+}
+.footer .footer-btn {
+  width: fit-content;
+}
+.footer .back-to-top {
+  position: fixed;
+  width: 3rem;
+  height: 3rem;
+  right: 1.875rem;
+  bottom: 1.875rem;
+  z-index: 9999;
+  background-color: rgba(251, 2, 2, 0.6);
+}
+.footer .back-to-top i {
+  color: #fff;
+  font-size: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /*# sourceMappingURL=style.css.map */
