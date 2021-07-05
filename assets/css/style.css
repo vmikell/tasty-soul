@@ -10790,6 +10790,10 @@ textarea.form-control-lg {
   padding: 0.9375rem 1.25rem;
 }
 
+.red-letter {
+  color: #fb0202;
+}
+
 .navbar {
   background: linear-gradient(to left, rgba(251, 2, 2, 0.55), rgba(253, 126, 20, 0.55));
 }
