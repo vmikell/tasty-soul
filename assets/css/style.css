@@ -10863,8 +10863,18 @@ textarea.form-control-lg {
   }
 }
 .social-media i {
-  font-size: 2rem;
+  font-size: 2.3rem;
+  padding-top: 0.35rem;
+  padding-bottom: 0.35rem;
   color: rgba(251, 2, 2, 0.6);
+}
+@media (min-width: 992px) {
+  .social-media i {
+    font-size: 3rem;
+  }
+}
+.social-media i:hover {
+  color: rgba(251, 2, 2, 0.8);
 }
 
 .g-recaptcha div:first-child {
