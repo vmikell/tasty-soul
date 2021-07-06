@@ -10867,7 +10867,7 @@ textarea.form-control-lg {
   color: rgba(251, 2, 2, 0.6);
 }
 
-.g-recaptcha {
+.g-recaptcha div:first-child {
   margin: auto;
 }
 
