@@ -10796,6 +10796,8 @@ textarea.form-control-lg {
 
 .navbar {
   background: linear-gradient(to left, rgba(251, 2, 2, 0.55), rgba(253, 126, 20, 0.55));
+  max-height: 6.25rem;
+  padding-top: 0;
 }
 .navbar .navbar-brand img {
   width: 5rem;
@@ -10855,7 +10857,7 @@ textarea.form-control-lg {
   position: fixed;
   width: 3rem;
   left: 0.5rem;
-  bottom: 20vh;
+  bottom: 15vh;
 }
 @media (min-width: 992px) {
   .social-media {
